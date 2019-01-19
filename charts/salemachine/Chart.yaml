@@ -4,5 +4,5 @@ description: 新零售子云
 icon: https://raw.githubusercontent.com/sanbaideng/rancherapp/master/charts/gear.png
 keywords:
 - web
-name: iot
+name: salemachine
 version: 0.1.0
