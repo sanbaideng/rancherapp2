@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   repository: reg2.cecii.cn/pub/collectorplatform
-  tag: v2
+  tag: v3
   pullPolicy: IfNotPresent
 
 service:
