@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   repository: reg2.cecii.cn/pub/jnic
-  tag: v1
+  tag: v2
   pullPolicy: IfNotPresent
 
 service:
