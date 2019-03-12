@@ -1,22 +1,22 @@
 apiVersion: apps/v1beta2
 kind: Deployment
 metadata:
-  name: {{ template "wulian.fullname" . }}
+  name: {{ template "haixi.fullname" . }}
   labels:
-    app: {{ template "wulian.name" . }}
-    chart: {{ template "wulian.chart" . }}
+    app: {{ template "haixi.name" . }}
+    chart: {{ template "haixi.chart" . }}
     release: {{ .Release.Name }}
     heritage: {{ .Release.Service }}
 spec:
   replicas: {{ .Values.replicaCount }}
   selector:
     matchLabels:
-      app: {{ template "wulian.name" . }}
+      app: {{ template "haixi.name" . }}
       release: {{ .Release.Name }}
   template:
     metadata:
       labels:
-        app: {{ template "wulian.name" . }}
+        app: {{ template "haixi.name" . }}
         release: {{ .Release.Name }}
     spec:
       volumes:
