@@ -1,7 +1,7 @@
 apiVersion: v1
 appVersion: "1.0"
 description: haixi
-icon: https://raw.githubusercontent.com/sanbaideng/rancherapp/master/charts/icons/gimp.jpg
+icon: https://raw.githubusercontent.com/sanbaideng/rancherapp2/master/charts/gear.png
 keywords:
 - web
 name: haixi
