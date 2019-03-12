@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   repository: reg2.cecii.cn/pub/haixi
-  tag: latest
+  tag: v1
   pullPolicy: IfNotPresent
 
 service:
