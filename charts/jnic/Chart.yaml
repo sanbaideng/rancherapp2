@@ -4,5 +4,5 @@ description: jnic
 icon: https://raw.githubusercontent.com/sanbaideng/rancherapp2/master/charts/icons/jnic.png
 keywords:
 - web
-name: jnic
+name: hjnic
 version: 0.1.0
