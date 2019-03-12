@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: {{ template "jnic.fullname" . }}
+  name: {{ template "hjnic.fullname" . }}
   labels:
-    app: {{ template "jnic.name" . }}
-    chart: {{ template "jnic.chart" . }}
+    app: {{ template "hjnic.name" . }}
+    chart: {{ template "hjnic.chart" . }}
     release: {{ .Release.Name }}
     heritage: {{ .Release.Service }}
 spec:
@@ -16,5 +16,5 @@ spec:
       protocol: TCP
       name: http
   selector:
-    app: {{ template "jnic.name" . }}
+    app: {{ template "hjnic.name" . }}
     release: {{ .Release.Name }}

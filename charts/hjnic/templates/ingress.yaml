@@ -1,13 +1,13 @@
 {{- if .Values.ingress.enabled -}}
-{{- $fullName := include "jnic.fullname" . -}}
+{{- $fullName := include "hjnic.fullname" . -}}
 {{- $ingressPath := .Values.ingress.path -}}
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
   name: {{ $fullName }}
   labels:
-    app: {{ template "jnic.name" . }}
-    chart: {{ template "jnic.chart" . }}
+    app: {{ template "hjnic.name" . }}
+    chart: {{ template "hjnic.chart" . }}
     release: {{ .Release.Name }}
     heritage: {{ .Release.Service }}
 {{- with .Values.ingress.annotations }}

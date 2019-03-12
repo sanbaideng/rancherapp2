@@ -1,22 +1,22 @@
 apiVersion: apps/v1beta2
 kind: Deployment
 metadata:
-  name: {{ template "jnic.fullname" . }}
+  name: {{ template "hjnic.fullname" . }}
   labels:
-    app: {{ template "jnic.name" . }}
-    chart: {{ template "jnic.chart" . }}
+    app: {{ template "hjnic.name" . }}
+    chart: {{ template "hjnic.chart" . }}
     release: {{ .Release.Name }}
     heritage: {{ .Release.Service }}
 spec:
   replicas: {{ .Values.replicaCount }}
   selector:
     matchLabels:
-      app: {{ template "jnic.name" . }}
+      app: {{ template "hjnic.name" . }}
       release: {{ .Release.Name }}
   template:
     metadata:
       labels:
-        app: {{ template "jnic.name" . }}
+        app: {{ template "hjnic.name" . }}
         release: {{ .Release.Name }}
     spec:
       volumes:
