@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   repository: reg.cecii.cn/pub/bachvio-all
-  tag: latest
+  tag: v2
   pullPolicy: IfNotPresent
 
 service:
