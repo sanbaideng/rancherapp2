@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: reg2.cecii.cn/pub/starccm
+  repository: reg.cecii.cn/pub/starccm
   tag: v3
   pullPolicy: IfNotPresent
 

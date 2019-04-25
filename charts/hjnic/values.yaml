@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: reg2.cecii.cn/pub/jnic
+  repository: reg.cecii.cn/pub/jnic
   tag: v2
   pullPolicy: IfNotPresent
 

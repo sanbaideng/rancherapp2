@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: reg2.cecii.cn/pub/wulian
+  repository: reg.cecii.cn/pub/wulian
   tag: latest
   pullPolicy: IfNotPresent
 

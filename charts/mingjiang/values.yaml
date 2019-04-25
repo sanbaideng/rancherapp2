@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: reg2.cecii.cn/pub/mingjiang
+  repository: reg.cecii.cn/pub/mingjiang
   tag: v2
   pullPolicy: IfNotPresent
 

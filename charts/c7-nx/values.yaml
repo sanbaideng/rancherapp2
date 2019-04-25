@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: reg2.cecii.cn/pub/c7-nx
+  repository: reg.cecii.cn/pub/c7-nx
   tag: v2
   pullPolicy: IfNotPresent
 
